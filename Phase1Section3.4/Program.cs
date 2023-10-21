@@ -11,6 +11,7 @@ namespace Phase1Section3._4
         static void Main(string[] args)
         {
             doApp();
+            Console.ReadLine();
         }
 
         static public void doApp()
@@ -37,7 +38,7 @@ namespace Phase1Section3._4
             if (xshort > 6 || xint > -9000)
                 Console.WriteLine("This expression evaluates to false");
 
-            Console.ReadLine();
+            
         }
 
 
